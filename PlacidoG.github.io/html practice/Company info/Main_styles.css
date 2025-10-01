@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+background: #0f172a;
+color: wheat;
+padding: 24px;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+gap: 24px;
+font-family: sans-serif, t;
+}
+
+/* Display css parameter: Tells container how to disply
+its contents in the header */
+header{
+display:flex;       
+align-items: center;    
+justify-content: space-between; 
+}
+
+/* Used tags to select and style particular elements*/
+nav, 
+section {
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* Using classes will allow us to be more specific with styles*/
+
+.WhiteLink {
+color:whitesmoke
+}
+
+.greyLink{
+color:lightgrey
+}
+
+/* Unset removes underline in text. Use a select all elements*/
+a{
+    text-decoration: unset;
+    font-size: 0.9em;
+}
+
+a:hover{
+    text-decoration: underline ;
+}
+
+/* Main parameter only works if the parent(header) has a flex display.
+The header tells the main parameter(child) to be space
+greedy as possible.*/
+main{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.headerText{
+    font-size: 3.2cqmax;
+}
+
+ 
+ button {
+            color: blueviolet
+        }
+
+
+a{
+            color:rgb(9, 104, 246)
+        } 
+
+
+
+
+
+
