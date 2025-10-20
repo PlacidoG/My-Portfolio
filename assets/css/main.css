@@ -92,6 +92,9 @@ body {
 /* Hero */
 .hero { padding: 96px 0 40px; }
 .hero .container { display: grid; gap: 18px; }
+.hero-content { display: grid; grid-template-columns: auto 1fr; gap: 20px; align-items: center; }
+.avatar { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(148,163,184,0.25); box-shadow: 0 8px 28px rgba(2,6,23,0.45); }
+.hero-text { display: grid; gap: 12px; }
 .hero-title { font-size: clamp(2rem, 4vw + 1rem, 3.25rem); line-height: 1.15; letter-spacing: 0.2px; }
 .hero-subtitle { color: var(--muted); font-size: clamp(1rem, 1vw + .75rem, 1.125rem); max-width: 70ch; }
 .hero-ctas { display: flex; gap: 14px; margin-top: 8px; }
@@ -241,6 +244,8 @@ a { font-size: 0.95em; }
     .nav-links { position: absolute; right: 4%; top: 64px; background: rgba(15,23,42,0.95); border: 1px solid rgba(148,163,184,0.2); border-radius: 12px; padding: 12px; display: none; flex-direction: column; gap: 8px; box-shadow: var(--shadow); }
     .nav-links.open { display: flex; }
     .footer-inner { flex-direction: column; }
+    .hero-content { grid-template-columns: 1fr; }
+    .avatar { width: 96px; height: 96px; }
 }
 
 
