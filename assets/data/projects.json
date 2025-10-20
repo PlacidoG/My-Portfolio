@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Pantry Friend Android App",
+    "description": "Android app to reduce food waste with a clean HCI-driven UX.",
+    "demo": "https://github.com/PlacidoG/pantry-friend-android-app",
+    "source": "https://github.com/PlacidoG/pantry-friend-android-app",
+    "tags": ["Java", "Android", "Firebase"]
+  },
+  {
+    "title": "PowerOutagePortal",
+    "description": "Report outages and get real-time email/SMS updates.",
+    "demo": "https://github.com/PlacidoG/PowerOutagePortal",
+    "source": "https://github.com/PlacidoG/PowerOutagePortal",
+    "tags": ["Python", "Django REST", "SendGrid", "Vonage"]
+  },
+  {
+    "title": "My-Portfolio",
+    "description": "Personal website showcasing projects and skills.",
+    "demo": "https://placidog.github.io/My-Portfolio/",
+    "source": "https://github.com/PlacidoG/My-Portfolio",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  }
+]
